@@ -14,6 +14,7 @@
 		DB7C9AE5220B2536004BB998 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB7C9AE3220B2536004BB998 /* LaunchScreen.storyboard */; };
 		DB7C9AF0220B2536004BB998 /* MarvelComicAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7C9AEF220B2536004BB998 /* MarvelComicAppTests.swift */; };
 		DB7C9AFB220B2536004BB998 /* MarvelComicAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7C9AFA220B2536004BB998 /* MarvelComicAppUITests.swift */; };
+		DB7C9B09220B2A80004BB998 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7C9B08220B2A80004BB998 /* TabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		DB7C9AF6220B2536004BB998 /* MarvelComicAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarvelComicAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB7C9AFA220B2536004BB998 /* MarvelComicAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelComicAppUITests.swift; sourceTree = "<group>"; };
 		DB7C9AFC220B2536004BB998 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB7C9B08220B2A80004BB998 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				DB7C9AE1220B2536004BB998 /* Assets.xcassets */,
 				DB7C9AE3220B2536004BB998 /* LaunchScreen.storyboard */,
 				DB7C9AE6220B2536004BB998 /* Info.plist */,
+				DB7C9B08220B2A80004BB998 /* TabBarController.swift */,
 			);
 			path = MarvelComicApp;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB7C9B09220B2A80004BB998 /* TabBarController.swift in Sources */,
 				DB7C9ADD220B2535004BB998 /* ViewController.swift in Sources */,
 				DB7C9ADB220B2535004BB998 /* AppDelegate.swift in Sources */,
 			);
