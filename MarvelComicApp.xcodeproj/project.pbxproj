@@ -15,6 +15,8 @@
 		DB7C9AF0220B2536004BB998 /* MarvelComicAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7C9AEF220B2536004BB998 /* MarvelComicAppTests.swift */; };
 		DB7C9AFB220B2536004BB998 /* MarvelComicAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7C9AFA220B2536004BB998 /* MarvelComicAppUITests.swift */; };
 		DB7C9B09220B2A80004BB998 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7C9B08220B2A80004BB998 /* TabBarController.swift */; };
+		DBC30D98221344C70082446A /* HomeTableViewCellCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC30D97221344C70082446A /* HomeTableViewCellCustom.swift */; };
+		DBC30D9C22134A1C0082446A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC30D9B22134A1C0082446A /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		DB7C9AFA220B2536004BB998 /* MarvelComicAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelComicAppUITests.swift; sourceTree = "<group>"; };
 		DB7C9AFC220B2536004BB998 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB7C9B08220B2A80004BB998 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		DBC30D97221344C70082446A /* HomeTableViewCellCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCellCustom.swift; sourceTree = "<group>"; };
+		DBC30D9B22134A1C0082446A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		DB7C9AD9220B2535004BB998 /* MarvelComicApp */ = {
 			isa = PBXGroup;
 			children = (
+				DBC30D962213447A0082446A /* HomePage */,
 				DB7C9ADA220B2535004BB998 /* AppDelegate.swift */,
 				DB7C9ADC220B2535004BB998 /* ViewController.swift */,
 				DB7C9ADE220B2535004BB998 /* Main.storyboard */,
@@ -126,6 +131,15 @@
 				DB7C9AFC220B2536004BB998 /* Info.plist */,
 			);
 			path = MarvelComicAppUITests;
+			sourceTree = "<group>";
+		};
+		DBC30D962213447A0082446A /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				DBC30D97221344C70082446A /* HomeTableViewCellCustom.swift */,
+				DBC30D9B22134A1C0082446A /* HomeViewController.swift */,
+			);
+			path = HomePage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,9 +273,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBC30D9C22134A1C0082446A /* HomeViewController.swift in Sources */,
 				DB7C9B09220B2A80004BB998 /* TabBarController.swift in Sources */,
 				DB7C9ADD220B2535004BB998 /* ViewController.swift in Sources */,
 				DB7C9ADB220B2535004BB998 /* AppDelegate.swift in Sources */,
+				DBC30D98221344C70082446A /* HomeTableViewCellCustom.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
