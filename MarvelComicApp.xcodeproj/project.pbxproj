@@ -111,17 +111,17 @@
 		DB7C9AD9220B2535004BB998 /* MarvelComicApp */ = {
 			isa = PBXGroup;
 			children = (
-				DB90B8A122145D8F00AB04F1 /* Model */,
-				DB90B8A022145D5C00AB04F1 /* Tools */,
+				DB7C9ADA220B2535004BB998 /* AppDelegate.swift */,
+				DB7C9AE1220B2536004BB998 /* Assets.xcassets */,
 				DB90B89922145C1E00AB04F1 /* CSV */,
 				DBC30D962213447A0082446A /* HomePage */,
-				DB7C9ADA220B2535004BB998 /* AppDelegate.swift */,
-				DB7C9ADC220B2535004BB998 /* ViewController.swift */,
-				DB7C9ADE220B2535004BB998 /* Main.storyboard */,
-				DB7C9AE1220B2536004BB998 /* Assets.xcassets */,
-				DB7C9AE3220B2536004BB998 /* LaunchScreen.storyboard */,
 				DB7C9AE6220B2536004BB998 /* Info.plist */,
+				DB7C9AE3220B2536004BB998 /* LaunchScreen.storyboard */,
+				DB7C9ADE220B2535004BB998 /* Main.storyboard */,
+				DB90B8A122145D8F00AB04F1 /* Model */,
 				DB7C9B08220B2A80004BB998 /* TabBarController.swift */,
+				DB90B8A022145D5C00AB04F1 /* Tools */,
+				DB7C9ADC220B2535004BB998 /* ViewController.swift */,
 			);
 			path = MarvelComicApp;
 			sourceTree = "<group>";

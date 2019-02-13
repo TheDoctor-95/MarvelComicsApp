@@ -22,8 +22,6 @@ class Tools{
             
             //Recorro el fichero por filas y lo guardo en el array
             for row in csv.rows {
-               
-                print (row)
                 comics.append(Comic(collection: row["coleccion"]!, number: row["numero"]!, title: row["titulo"] != "" ? row["titulo"]! : "null",writer: row["writer"]!,artist: row["artist"]!, description: row["descripcion"]!, imageUrl: row["imageUrl"]! != "" ? row["imageUrl"]! : "null"))
             }
             

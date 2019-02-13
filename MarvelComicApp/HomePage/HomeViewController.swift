@@ -43,6 +43,14 @@ class HomeViewController: UIViewController , UITableViewDataSource, UITableViewD
         myCell.artistName.text = comic.artist
         myCell.writerName.text = comic.writer
         
+        let url = URL (string: comic.imageUrl)
+        
+        if let data = try? Data(contentsOf: url!){
+            DispatchQueue.main.async {
+                myCell.PortadaImage.image = UIImage(data: data)
+            }
+        }
+        
         
         return myCell
     }
