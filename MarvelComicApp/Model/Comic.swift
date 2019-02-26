@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 class Comic {
     
@@ -16,15 +17,15 @@ class Comic {
     var writer: String
     var artist: String
     var description: String
-    var imageUrl: String
+    var image: UIImage
     
-    init(collection: String, number: String, title: String,writer: String,artist: String, description: String, imageUrl: String) {
+    init(collection: String, number: String, title: String,writer: String,artist: String, description: String) {
         self.collection = collection
         self.number = number
         self.title = title
         self.writer = writer
         self.artist = artist
         self.description = description
-        self.imageUrl = imageUrl
+        self.image = UIImage()
     }
 }

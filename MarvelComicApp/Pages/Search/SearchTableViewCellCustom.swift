@@ -1,20 +1,18 @@
 //
-//  HomeTableViewCellCustom.swift
+//  SearchTableViewCellCustom.swift
 //  MarvelComicApp
 //
-//  Created by Pau Duran on 12/02/2019.
+//  Created by Pau Duran on 13/02/2019.
 //  Copyright © 2019 Pau Duran. All rights reserved.
 //
 
 import UIKit
 
-class HomeTableViewCellCustom: UITableViewCell {
+class SearchTableViewCellCustom: UITableViewCell {
 
-    @IBOutlet weak var PortadaImage: UIImageView!
-    @IBOutlet weak var CollectionTitle: UILabel!
-    @IBOutlet weak var ComicTitle: UILabel!
-    @IBOutlet weak var writerName: UILabel!
-    @IBOutlet weak var artistName: UILabel!
+    @IBOutlet weak var portadaImage: UIImageView!
+    @IBOutlet weak var collectionLabel: UILabel!
+    @IBOutlet weak var titleLabel: UILabel!
     
     
     override func awakeFromNib() {

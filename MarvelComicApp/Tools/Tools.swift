@@ -7,7 +7,7 @@
 //
 
 import Foundation
-
+import UIKit
 class Tools{
     
     func parseCSVComic(comics: inout [Comic]) {
@@ -22,7 +22,17 @@ class Tools{
             
             //Recorro el fichero por filas y lo guardo en el array
             for row in csv.rows {
-                comics.append(Comic(collection: row["coleccion"]!, number: row["numero"]!, title: row["titulo"] != "" ? row["titulo"]! : "null",writer: row["writer"]!,artist: row["artist"]!, description: row["descripcion"]!, imageUrl: row["imageUrl"]! != "" ? row["imageUrl"]! : "null"))
+                let comic = Comic(collection: row["coleccion"]!, number: row["numero"]!, title: row["titulo"] != "" ? row["titulo"]! : "null",writer: row["writer"]!,artist: row["artist"]!, description: row["descripcion"]!)
+                if(row["imageUrl"] != ""){
+                    let url = URL (string: row["imageUrl"]!)
+                    
+                    if let data = try? Data(contentsOf: url!){
+                        DispatchQueue.main.async {
+                            comic.image = UIImage(data: data)!
+                        }
+                    }
+                }
+                comics.append(comic)
             }
             
         } catch let error as NSError {
@@ -30,5 +40,9 @@ class Tools{
         }
         
 }
+    
+    /*func getImage(url: String) -> UIImage{
+        
+    }*/
 
 }

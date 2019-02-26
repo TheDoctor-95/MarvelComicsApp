@@ -19,6 +19,8 @@
 		DB90B89D22145CDD00AB04F1 /* Comics.csv in Resources */ = {isa = PBXBuildFile; fileRef = DB90B89C22145CDD00AB04F1 /* Comics.csv */; };
 		DB90B89F22145D5100AB04F1 /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB90B89E22145D5100AB04F1 /* Tools.swift */; };
 		DB90B8A322145D9B00AB04F1 /* Comic.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB90B8A222145D9B00AB04F1 /* Comic.swift */; };
+		DB90B8A622146E3B00AB04F1 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB90B8A522146E3B00AB04F1 /* SearchViewController.swift */; };
+		DB90B8A822146E5A00AB04F1 /* SearchTableViewCellCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB90B8A722146E5A00AB04F1 /* SearchTableViewCellCustom.swift */; };
 		DBC30D98221344C70082446A /* HomeTableViewCellCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC30D97221344C70082446A /* HomeTableViewCellCustom.swift */; };
 		DBC30D9C22134A1C0082446A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC30D9B22134A1C0082446A /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
@@ -59,6 +61,8 @@
 		DB90B89C22145CDD00AB04F1 /* Comics.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Comics.csv; path = ../../../Comics.csv; sourceTree = "<group>"; };
 		DB90B89E22145D5100AB04F1 /* Tools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
 		DB90B8A222145D9B00AB04F1 /* Comic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comic.swift; sourceTree = "<group>"; };
+		DB90B8A522146E3B00AB04F1 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		DB90B8A722146E5A00AB04F1 /* SearchTableViewCellCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCellCustom.swift; sourceTree = "<group>"; };
 		DBC30D97221344C70082446A /* HomeTableViewCellCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCellCustom.swift; sourceTree = "<group>"; };
 		DBC30D9B22134A1C0082446A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -111,15 +115,15 @@
 		DB7C9AD9220B2535004BB998 /* MarvelComicApp */ = {
 			isa = PBXGroup;
 			children = (
+				DB90B8A922146E6C00AB04F1 /* Pages */,
 				DB7C9ADA220B2535004BB998 /* AppDelegate.swift */,
 				DB7C9AE1220B2536004BB998 /* Assets.xcassets */,
-				DB90B89922145C1E00AB04F1 /* CSV */,
-				DBC30D962213447A0082446A /* HomePage */,
 				DB7C9AE6220B2536004BB998 /* Info.plist */,
 				DB7C9AE3220B2536004BB998 /* LaunchScreen.storyboard */,
 				DB7C9ADE220B2535004BB998 /* Main.storyboard */,
 				DB90B8A122145D8F00AB04F1 /* Model */,
 				DB7C9B08220B2A80004BB998 /* TabBarController.swift */,
+				DB90B89922145C1E00AB04F1 /* CSV */,
 				DB90B8A022145D5C00AB04F1 /* Tools */,
 				DB7C9ADC220B2535004BB998 /* ViewController.swift */,
 			);
@@ -167,6 +171,24 @@
 				DB90B8A222145D9B00AB04F1 /* Comic.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		DB90B8A422146E1C00AB04F1 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				DB90B8A522146E3B00AB04F1 /* SearchViewController.swift */,
+				DB90B8A722146E5A00AB04F1 /* SearchTableViewCellCustom.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		DB90B8A922146E6C00AB04F1 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				DBC30D962213447A0082446A /* HomePage */,
+				DB90B8A422146E1C00AB04F1 /* Search */,
+			);
+			path = Pages;
 			sourceTree = "<group>";
 		};
 		DBC30D962213447A0082446A /* HomePage */ = {
@@ -312,7 +334,9 @@
 			files = (
 				DB90B89B22145CBB00AB04F1 /* csv.swift in Sources */,
 				DB90B8A322145D9B00AB04F1 /* Comic.swift in Sources */,
+				DB90B8A822146E5A00AB04F1 /* SearchTableViewCellCustom.swift in Sources */,
 				DBC30D9C22134A1C0082446A /* HomeViewController.swift in Sources */,
+				DB90B8A622146E3B00AB04F1 /* SearchViewController.swift in Sources */,
 				DB7C9B09220B2A80004BB998 /* TabBarController.swift in Sources */,
 				DB7C9ADD220B2535004BB998 /* ViewController.swift in Sources */,
 				DB90B89F22145D5100AB04F1 /* Tools.swift in Sources */,

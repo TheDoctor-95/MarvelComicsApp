@@ -43,20 +43,28 @@ class HomeViewController: UIViewController , UITableViewDataSource, UITableViewD
         myCell.artistName.text = comic.artist
         myCell.writerName.text = comic.writer
         
-        let url = URL (string: comic.imageUrl)
+       myCell.PortadaImage.image = comic.image
         
-        if let data = try? Data(contentsOf: url!){
-            DispatchQueue.main.async {
-                myCell.PortadaImage.image = UIImage(data: data)
-            }
-        }
+        myCell.btnCollect.tag = indexPath.row
         
+        myCell.btnCollect.addTarget(self, action: #selector(clickCollect), for: .touchUpInside)
+        
+        myCell.btnRead.tag = indexPath.row
+        myCell.btnRead.addTarget(self, action: #selector(clickRead), for: .touchUpInside)
         
         return myCell
     }
 
+    @objc func clickCollect(sender: UIButton) {
+        print("Has pulsado collect", sender.tag)
+    }
+    
+    @objc func clickRead(sender: UIButton) {
+        print("Has pulsado red", sender.tag)
+    }
+    
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 250
+        return 330
     }
     
 }
