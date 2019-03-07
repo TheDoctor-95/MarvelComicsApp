@@ -17,6 +17,8 @@ class HomeTableViewCellCustom: UITableViewCell {
     @IBOutlet weak var artistName: UILabel!
     @IBOutlet weak var btnCollect: UIButton!
     @IBOutlet weak var btnRead: UIButton!
+    @IBOutlet weak var btnCollectImage: UIImageView!
+    @IBOutlet weak var btnReadImage: UIImageView!
     
     
     override func awakeFromNib() {

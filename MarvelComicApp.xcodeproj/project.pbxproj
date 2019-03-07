@@ -16,13 +16,19 @@
 		DB7C9AFB220B2536004BB998 /* MarvelComicAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7C9AFA220B2536004BB998 /* MarvelComicAppUITests.swift */; };
 		DB7C9B09220B2A80004BB998 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7C9B08220B2A80004BB998 /* TabBarController.swift */; };
 		DB90B89B22145CBB00AB04F1 /* csv.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB90B89A22145CBB00AB04F1 /* csv.swift */; };
-		DB90B89D22145CDD00AB04F1 /* Comics.csv in Resources */ = {isa = PBXBuildFile; fileRef = DB90B89C22145CDD00AB04F1 /* Comics.csv */; };
 		DB90B89F22145D5100AB04F1 /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB90B89E22145D5100AB04F1 /* Tools.swift */; };
 		DB90B8A322145D9B00AB04F1 /* Comic.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB90B8A222145D9B00AB04F1 /* Comic.swift */; };
 		DB90B8A622146E3B00AB04F1 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB90B8A522146E3B00AB04F1 /* SearchViewController.swift */; };
 		DB90B8A822146E5A00AB04F1 /* SearchTableViewCellCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB90B8A722146E5A00AB04F1 /* SearchTableViewCellCustom.swift */; };
+		DBA560A8222EEAC4009AF54B /* comics.csv in Resources */ = {isa = PBXBuildFile; fileRef = DBA560A7222EEAC4009AF54B /* comics.csv */; };
+		DBA560AA222EF3CA009AF54B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA560A9222EF3CA009AF54B /* DetailViewController.swift */; };
+		DBA560AD222EFE4E009AF54B /* Comics2.csv in Resources */ = {isa = PBXBuildFile; fileRef = DBA560AC222EFE4D009AF54B /* Comics2.csv */; };
+		DBA560AF222EFF45009AF54B /* comics3.csv in Resources */ = {isa = PBXBuildFile; fileRef = DBA560AE222EFF45009AF54B /* comics3.csv */; };
 		DBC30D98221344C70082446A /* HomeTableViewCellCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC30D97221344C70082446A /* HomeTableViewCellCustom.swift */; };
 		DBC30D9C22134A1C0082446A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC30D9B22134A1C0082446A /* HomeViewController.swift */; };
+		DBEB816E223019C2000DA4F3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEB816D223019C2000DA4F3 /* User.swift */; };
+		DBF25B752230299A0070C0B7 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF25B742230299A0070C0B7 /* ProfileViewController.swift */; };
+		DBF25B7822302A090070C0B7 /* CollectionViewCellCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF25B7722302A090070C0B7 /* CollectionViewCellCustom.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,13 +64,19 @@
 		DB7C9AFC220B2536004BB998 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB7C9B08220B2A80004BB998 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		DB90B89A22145CBB00AB04F1 /* csv.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = csv.swift; sourceTree = "<group>"; };
-		DB90B89C22145CDD00AB04F1 /* Comics.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Comics.csv; path = ../../../Comics.csv; sourceTree = "<group>"; };
 		DB90B89E22145D5100AB04F1 /* Tools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
 		DB90B8A222145D9B00AB04F1 /* Comic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comic.swift; sourceTree = "<group>"; };
 		DB90B8A522146E3B00AB04F1 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		DB90B8A722146E5A00AB04F1 /* SearchTableViewCellCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCellCustom.swift; sourceTree = "<group>"; };
+		DBA560A7222EEAC4009AF54B /* comics.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = comics.csv; sourceTree = "<group>"; };
+		DBA560A9222EF3CA009AF54B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		DBA560AC222EFE4D009AF54B /* Comics2.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Comics2.csv; sourceTree = "<group>"; };
+		DBA560AE222EFF45009AF54B /* comics3.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = comics3.csv; sourceTree = "<group>"; };
 		DBC30D97221344C70082446A /* HomeTableViewCellCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCellCustom.swift; sourceTree = "<group>"; };
 		DBC30D9B22134A1C0082446A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		DBEB816D223019C2000DA4F3 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		DBF25B742230299A0070C0B7 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		DBF25B7722302A090070C0B7 /* CollectionViewCellCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellCustom.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,8 +163,9 @@
 		DB90B89922145C1E00AB04F1 /* CSV */ = {
 			isa = PBXGroup;
 			children = (
+				DBA560A7222EEAC4009AF54B /* comics.csv */,
+				DBA560AC222EFE4D009AF54B /* Comics2.csv */,
 				DB90B89A22145CBB00AB04F1 /* csv.swift */,
-				DB90B89C22145CDD00AB04F1 /* Comics.csv */,
 			);
 			path = CSV;
 			sourceTree = "<group>";
@@ -169,6 +182,7 @@
 			isa = PBXGroup;
 			children = (
 				DB90B8A222145D9B00AB04F1 /* Comic.swift */,
+				DBEB816D223019C2000DA4F3 /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -185,10 +199,21 @@
 		DB90B8A922146E6C00AB04F1 /* Pages */ = {
 			isa = PBXGroup;
 			children = (
+				DBF25B762230299E0070C0B7 /* Profile */,
+				DBA560AE222EFF45009AF54B /* comics3.csv */,
+				DBA560AB222EF3D3009AF54B /* Detail */,
 				DBC30D962213447A0082446A /* HomePage */,
 				DB90B8A422146E1C00AB04F1 /* Search */,
 			);
 			path = Pages;
+			sourceTree = "<group>";
+		};
+		DBA560AB222EF3D3009AF54B /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				DBA560A9222EF3CA009AF54B /* DetailViewController.swift */,
+			);
+			path = Detail;
 			sourceTree = "<group>";
 		};
 		DBC30D962213447A0082446A /* HomePage */ = {
@@ -198,6 +223,15 @@
 				DBC30D9B22134A1C0082446A /* HomeViewController.swift */,
 			);
 			path = HomePage;
+			sourceTree = "<group>";
+		};
+		DBF25B762230299E0070C0B7 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				DBF25B742230299A0070C0B7 /* ProfileViewController.swift */,
+				DBF25B7722302A090070C0B7 /* CollectionViewCellCustom.swift */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -306,8 +340,10 @@
 			files = (
 				DB7C9AE5220B2536004BB998 /* LaunchScreen.storyboard in Resources */,
 				DB7C9AE2220B2536004BB998 /* Assets.xcassets in Resources */,
-				DB90B89D22145CDD00AB04F1 /* Comics.csv in Resources */,
+				DBA560A8222EEAC4009AF54B /* comics.csv in Resources */,
 				DB7C9AE0220B2535004BB998 /* Main.storyboard in Resources */,
+				DBA560AF222EFF45009AF54B /* comics3.csv in Resources */,
+				DBA560AD222EFE4E009AF54B /* Comics2.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,7 +368,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBA560AA222EF3CA009AF54B /* DetailViewController.swift in Sources */,
+				DBEB816E223019C2000DA4F3 /* User.swift in Sources */,
 				DB90B89B22145CBB00AB04F1 /* csv.swift in Sources */,
+				DBF25B7822302A090070C0B7 /* CollectionViewCellCustom.swift in Sources */,
 				DB90B8A322145D9B00AB04F1 /* Comic.swift in Sources */,
 				DB90B8A822146E5A00AB04F1 /* SearchTableViewCellCustom.swift in Sources */,
 				DBC30D9C22134A1C0082446A /* HomeViewController.swift in Sources */,
@@ -340,6 +379,7 @@
 				DB7C9B09220B2A80004BB998 /* TabBarController.swift in Sources */,
 				DB7C9ADD220B2535004BB998 /* ViewController.swift in Sources */,
 				DB90B89F22145D5100AB04F1 /* Tools.swift in Sources */,
+				DBF25B752230299A0070C0B7 /* ProfileViewController.swift in Sources */,
 				DB7C9ADB220B2535004BB998 /* AppDelegate.swift in Sources */,
 				DBC30D98221344C70082446A /* HomeTableViewCellCustom.swift in Sources */,
 			);

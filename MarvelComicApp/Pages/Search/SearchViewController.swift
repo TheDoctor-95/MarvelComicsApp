@@ -23,6 +23,10 @@ class SearchViewController: UIViewController, UITableViewDataSource, UITableView
         // Do any additional setup after loading the view.
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        table.reloadData()
+    }
+    
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return comics.count
@@ -42,6 +46,14 @@ class SearchViewController: UIViewController, UITableViewDataSource, UITableView
 
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 100
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let vc = storyboard?.instantiateViewController(withIdentifier: "detailView") as! DetailViewController
+        
+        vc.comic = comics[indexPath.row]
+        
+        self.navigationController?.pushViewController(vc, animated: true)
     }
     
     
