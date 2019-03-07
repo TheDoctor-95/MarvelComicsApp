@@ -44,14 +44,7 @@ class User {
     
     func toggleRead(comic: Comic) {
         if(isRead(comic: comic)){
-            var delete: Int = 0
-            for index in 0..<readComics.count{
-                if(readComics[index].collection == comic.collection && readComics[index].number == comic.number){
-                    delete = index
-                }
-            }
-            
-            readComics.remove(at: delete)
+            readComics.removeAll(where: {$0.collection == comic.collection && $0.number == comic.number})
         }else{
             readComics.append(comic)
         }
@@ -59,14 +52,7 @@ class User {
     
     func toggleCollected(comic: Comic) {
         if(isCollected(comic: comic)){
-            var delete: Int = 0
-            for index in 0..<collectedComics.count{
-                if(collectedComics[index].collection == comic.collection && collectedComics[index].number == comic.number){
-                    delete = index
-                }
-            }
-            
-            collectedComics.remove(at: delete)
+            collectedComics.removeAll(where: {$0.collection == comic.collection && $0.number == comic.number})
         }else{
             collectedComics.append(comic)
         }

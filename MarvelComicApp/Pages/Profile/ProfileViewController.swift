@@ -13,6 +13,8 @@ class ProfileViewController: UIViewController, UICollectionViewDataSource, UICol
     
 
     @IBOutlet weak var CollectionView: UICollectionView!
+    @IBOutlet weak var collectCount: UILabel!
+    @IBOutlet weak var readCount: UILabel!
     
     
     override func viewDidLoad() {
@@ -27,6 +29,11 @@ class ProfileViewController: UIViewController, UICollectionViewDataSource, UICol
     
     override func viewDidAppear(_ animated: Bool) {
         CollectionView.reloadData()
+        
+        collectCount.text = "\(user.collectedComics.count)"
+        readCount.text = "\(user.readComics.count)"
+        
+        
     }
     
     

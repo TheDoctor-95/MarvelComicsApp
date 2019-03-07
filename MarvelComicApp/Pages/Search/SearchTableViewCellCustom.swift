@@ -13,7 +13,8 @@ class SearchTableViewCellCustom: UITableViewCell {
     @IBOutlet weak var portadaImage: UIImageView!
     @IBOutlet weak var collectionLabel: UILabel!
     @IBOutlet weak var titleLabel: UILabel!
-    
+    @IBOutlet weak var readImage: UIImageView!
+    @IBOutlet weak var collectionImage: UIImageView!
     
     override func awakeFromNib() {
         super.awakeFromNib()

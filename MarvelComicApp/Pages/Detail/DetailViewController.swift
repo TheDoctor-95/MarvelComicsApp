@@ -30,7 +30,7 @@ class DetailViewController: UIViewController {
         super.viewDidLoad()
         
         portada.image = comic!.image
-        titleComic.text = comic!.title
+        titleComic.text = comic!.title != "null" ? comic!.title : ""
         colection.text = "\(comic!.collection) #\(comic!.number)"
         descripcio.text = comic!.description
         
